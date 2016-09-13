@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Light theme</title>
+    <link rel="stylesheet" th:href="${#themes.code('css')}" type="text/css"/>
+</head>
+<body>
+<div style="border: 1px solid #6e6e6e; padding: 10px;">
+    <h1>Hello, <span th:text="${#themes.code('name')}"></span>!</h1>
+    <ul>
+        <li><a href="?theme=light">light theme</a></li>
+        <li><a href="?theme=dark">dark theme</a></li>
+        <li><a href="?theme=green">green theme</a></li>
+    </ul>
+</div>
+</body>
+</html>

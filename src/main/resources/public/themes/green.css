@@ -1,0 +1,17 @@
+body{
+    background-color: #36c969;
+    color: #181818;
+}
+
+h1{
+    size: 12px;
+}
+
+a, a:visited, a:active{
+    text-decoration: none;
+    color: #1f1c0d;
+}
+
+a:hover{
+    color: #6d6d6d;
+}

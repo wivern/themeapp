@@ -1,0 +1,7 @@
+logging:
+  level:
+    com:
+      wivern: DEBUG
+spring:
+  thymeleaf:
+    cache: false
